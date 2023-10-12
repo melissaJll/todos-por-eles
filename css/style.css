@@ -23,7 +23,7 @@
 html {
   font-size: 10px;
   scroll-behavior: smooth;
-  width: 100vw;
+  
 }
 
 /* Cor de fundo do scroll */
@@ -74,7 +74,7 @@ header{
   position: sticky;
   top: 0;
   z-index: 10;
-  padding: 25px 0;
+  padding: 25px;
 }
 
 .info-bg {
