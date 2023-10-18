@@ -66,6 +66,10 @@ button {
     100% - 100px
   ); /* a largura é a largura total menos 100px (50px para cada lado) */
 }
+.limitador1{
+  width: 95vw;
+  margin: auto;
+}
 
 
 
