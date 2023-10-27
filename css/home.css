@@ -135,7 +135,7 @@ nav {
   , auto; 
 }
 
-.destaque{
+/* .destaque{
   background: url(../img/fundo-principal.png);
   background-color: #39394a65;
   background-size: cover;
@@ -187,8 +187,9 @@ nav {
   color: var(--quaternary-color);
   height: 48px;
   letter-spacing: var(--letter-spacing);
-}
+} */
 
+/*    SLIDER    */
 
 :after,
 :before,
@@ -377,43 +378,7 @@ h2 {
   }
 }
 
-@media (max-width: 769px) {
-  .hero-style{
-    height: 500px;
-  }
-  .sobre-ong{
-    display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    width: 90vw;
-    justify-content: center;
-  }
-  .sobre-ong img{
-    max-height: 84px;
-    max-width: 83px;
-    margin: 5px;
-  }
-  .sobre-ong p{
-    min-width: 85%;
-    padding: 30px 0;
-    text-align: justify;
-  }
-  .container-footer-rotas{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  .logo-footer, .footer-atendimento, .footer-plataforma, .footer-mapa{
-    min-width: 100%;
-    text-align: center;
-    margin: 35px;
-  }
-  .logo-footer a, .footer-atendimento, .footer-plataforma a, .footer-mapa a{
-    font-size: medium;
-  }
-}
+
 
 @media screen and (min-width: 992px) {
   .hero-style .container {
@@ -543,6 +508,18 @@ a:hover {
 }
 
 
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container > div {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+
 
 
 
@@ -571,6 +548,49 @@ a:hover {
 }
 
 
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 64%;
+  margin-top: 7.5rem;
+  font-size: larger;
+  text-align: center;
+}
+
+.cards a{
+  color: var(--tertiary-color);
+  background-color: rgb(248, 248, 248);
+  padding: 6px;
+  border-radius: 5px;
+  margin-top: 9px;
+}
+
+.card1,.card2, .card3, .card4{
+  width: 26%;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 7.5rem;
+}
+.card1 img,.card2 img, .card3 img, .card4 img{
+  width : 83px;
+  height : 76px;
+  margin-bottom: 15px;
+}
+
+
+/* .card1:hover, .card2:hover, .card3:hover, .card4:hover{
+  box-shadow: #a7a7a783 0 4px 21px 1px ;
+  transform: scale(1.03);
+}
+
+.card1:focus, .card2:focus, .card3:focus, .card4:focus{
+  transform: scale(1.03);
+} */
 
 
 footer{
@@ -742,5 +762,43 @@ footer h3{
 @media screen and (max-width: 338px) {
   .servicos-img-texto article {
     min-width: 250px;
+  }
+}
+
+@media (max-width: 769px) {
+  .hero-style{
+    height: 500px;
+  }
+  .sobre-ong{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    width: 90vw;
+    justify-content: center;
+  }
+  .sobre-ong img{
+    max-height: 84px;
+    max-width: 83px;
+    margin: 5px;
+  }
+  .sobre-ong p{
+    min-width: 85%;
+    padding: 30px 0;
+    text-align: justify;
+  }
+  .container-footer-rotas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo-footer, .footer-atendimento, .footer-plataforma, .footer-mapa{
+    min-width: 100%;
+    text-align: center;
+    margin: 35px;
+  }
+  .logo-footer a, .footer-atendimento, .footer-plataforma a, .footer-mapa a{
+    font-size: medium;
   }
 }
