@@ -1,6 +1,7 @@
 
 body {
-  background-color: #FDFDFD; 
+    background-color: #fdfdfd; 
+  /* background-color: #f5c359;  */
 }
 
 
@@ -103,6 +104,10 @@ margin: 24px 0;
 .switch-field label:last-of-type {
 	border-radius: 0 8px 8px 0;
 }
+.form-switch{
+    display: flex;
+    justify-content: center;
+}
 
 
 /* .form {
@@ -126,8 +131,7 @@ margin: 24px 0;
     max-width: 300px;
     min-height: 250px;
     background: #ffffff;
-    padding: 30px;
-    border-radius: 11px;
+    border-radius: 8px;
     box-sizing: border-box;
     color: #1b1816;
     margin:20px;
@@ -135,6 +139,8 @@ margin: 24px 0;
     overflow: hidden;
     transition: all 0.6s ease;
     cursor:default;
+    margin-bottom: 75px;
+    font-family: var(--font-family-primary);
 }
 .card:hover{
     box-shadow: rgba(255, 172, 28, 0.199) -10px 10px, rgba(255, 172, 28, 0.19) -20px 20px ;
@@ -146,23 +152,31 @@ margin: 24px 0;
 .card:last-child{
    background: #673ab7;
 } */
+
 .card-titulo{
     width: 200px;
     font-weight: 500;
-    font-size: 16px;
-    padding-bottom: 5px;
+    font-size: 1.5rem;
+    padding: 10px 0 5px 16px;
     margin-bottom: 8px;
     border-bottom: 4px solid #FFAC1C;
+}
+.sub-titulo-card{
+    padding: 5px 0 5px 16px;
+    font-weight: bold;
+    font-size: 1.3rem;
 }
 .card-content{
     font-size: 14px;
     letter-spacing: 0.5px;
     line-height: 1.5;
+    padding: 15px 22px 24px 22px;
+
 }
 .card-btn{
     all: unset;
     display: block;
-    margin-left: auto;
+    margin: 7px auto 20px auto;
     border: 2px solid #e68c18;
     padding: 10px 15px;
     border-radius: 25px;
@@ -171,6 +185,9 @@ margin: 24px 0;
     transition: all 0.5s;
     cursor: pointer;
     letter-spacing: 1.2px;
+}
+.card-btn a{
+    text-decoration: none;
 }
 
 .card-btn:hover{
