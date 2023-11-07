@@ -726,6 +726,13 @@ footer h3{
     justify-content: space-between;
     align-items: center;
   }
+  .container-adote img{
+    width: 100%;
+  }
+  .container-adote .texto{
+    width: 100%;
+    font-size: 3rem;
+  }
 
 }
 
@@ -783,11 +790,7 @@ footer h3{
   }
 }
 
-@media screen and (max-width: 338px) {
-  .servicos-img-texto article {
-    min-width: 250px;
-  }
-}
+
 
 @media (max-width: 769px) {
   .hero-style{
