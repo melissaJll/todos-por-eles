@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todos Por Eles</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="shortcut icon" href="img/icon-dog.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/fav-icon-pet.png" type="image/x-icon">
     <link rel="stylesheet" href="css/home.css" />
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css'>
 
@@ -17,7 +17,7 @@
     <header class="info-bg">
       <div class="limitador">
         <h1>
-          <a href="index.html"
+          <a href="home.html"
             ><img src="img//patinha.png" alt="Logo"
           /></a>
         </h1>
@@ -26,9 +26,9 @@
             <a href="" class="icone"><img src="img/icon-menu.svg" alt="icone de menu"></a>
           </h2>
           <ul class="menu">
-            <li><a href="adote.html">Adote</a></li>
+            <li><a href="adocao.html">Adote</a></li>
             <li><a href="como-ajudar.html">Como Ajudar?</a></li>
-            <li><a href="contatos.html">Contatos</a></li>
+            <li><a href="contato.html">Contatos</a></li>
             <li><a href="administracao.html">Área Administrativa</a></li>
           </ul>
         </nav>
@@ -51,13 +51,10 @@
           <div class="swiper-container">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <div class="slide-inner slide-bg-image" data-background="img/banner-1.png">
+                <div class="slide-inner slide-bg-image" data-background="img/banner-4.png">
                   <div class="container">
                     <div data-swiper-parallax="300" class="slide-title">
                       <h2>Envolva-se! Doe tempo ou recursos para abrigos.</h2>
-                    </div>
-                    <div data-swiper-parallax="400" class="slide-text">
-                      <p>Nenhuma ajuda é pequena demais</p>
                     </div>
                     <div class="clearfix"></div>
                     <div data-swiper-parallax="500" class="slide-btns">
@@ -70,13 +67,10 @@
               <!-- end swiper-slide -->
         
               <div class="swiper-slide">
-                <div class="slide-inner slide-bg-image" data-background="img/banner-4.png">
+                <div class="slide-inner slide-bg-image" data-background="img/banner-1.png">
                   <div class="container">
                     <div data-swiper-parallax="300" class="slide-title">
                       <h2>Envolva-se! Doe tempo ou recursos para abrigos.</h2>
-                    </div>
-                    <div data-swiper-parallax="400" class="slide-text">
-                      <p>Nenhuma ajuda é pequena demais</p>
                     </div>
                     <div class="clearfix"></div>
                     <div data-swiper-parallax="500" class="slide-btns">
@@ -93,9 +87,6 @@
                   <div class="container">
                     <div data-swiper-parallax="300" class="slide-title">
                       <h2>Envolva-se! Doe tempo ou recursos para abrigos.</h2>
-                    </div>
-                    <div data-swiper-parallax="400" class="slide-text">
-                      <p>Nenhuma ajuda é pequena demais</p>
                     </div>
                     <div class="clearfix"></div>
                     <div data-swiper-parallax="500" class="slide-btns">
@@ -159,18 +150,12 @@
         </div>
 
 
-        <section class="flex-container">
-          <!-- <div><img src="img/bath.png" alt=""></div>
-          <div><img src="img/icon-dog.png" alt=""></div>
-          <div><img src="img/volunteer.png" alt=""></div> -->
-        </section>
-
             <div class="container-adote">
               <img src="img/adote-dog.jpeg" alt="">
-              <div class="texto" >
-                <h2 >ADOTE UMA VIDA, ADOTE UM ANJINHO.</h2>
-                <p >Preencha o formulário para iniciarmos a adoção amet consectetur adipisicing elit. Rerum.</p>
-                <a class="btn-adote" >Adote</a>
+              <div  class="texto" >
+                <h2 data-aos="fade-left">ADOTE UMA VIDA, ADOTE UM ANJINHO.</h2>
+                <p data-aos="fade-left">Preencha o formulário para iniciarmos a adoção amet consectetur adipisicing elit. Rerum.</p>
+                <a data-aos="fade-left"class="btn-adote" >Adote</a>
                 <!-- data-aos="fade-left" -->
               </div>
             </div>
@@ -223,21 +208,27 @@
       </footer>
                 
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+      <script src="js/menu.js"></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="js/script.js"></script>
       <script>
         AOS.init({
           duration: 800,
           once: true
         });
       </script>
+
+        <!-- <div vw class="enabled">
+          <div vw-access-button class="active"></div>
+          <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+          </div>
+        </div>
       <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
       <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
-      </script>
+      </script> -->
 
-
-      <script src="js/menu.js"></script>
-      <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js'></script>
-      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="js/script.js"></script>
-  
   </body>
 </html>

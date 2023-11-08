@@ -214,6 +214,7 @@ h2 {
   display: flex;
   position: relative;
   z-index: 0;
+  font-family: var(--font-family-primary);
 }
 
 @media (max-width: 991px) {
@@ -387,7 +388,6 @@ h2 {
 }
 
 .hero-style .slide-title,
-.hero-style .slide-text,
 .hero-style .slide-btns {
   max-width: 660px;
 }
@@ -423,26 +423,6 @@ h2 {
   }
 }
 
-.hero-style .slide-text p {
-  opacity: 0.8;
-  font-family: Rajdhani;
-  font-size: 32px;
-  font-weight: 500;
-  line-height: 1.25;
-  letter-spacing: normal;
-  color: #ffffff;
-  margin: 0 0 40px;
-  transition:all .4s ease;
-  text-shadow: var(--secondary-color) 1px 1px;
-}
-
-@media (max-width: 767px) {
-  .hero-style .slide-text p {
-    font-size: 2.1rem;
-    font-weight: normal;
-    margin: 0 0 30px;
-  }
-}
 
 .hero-style .slide-btns > a:first-child {
   margin-right: 10px;
@@ -671,7 +651,20 @@ footer h3{
 .copyright, .redes-sociais{
   flex: 100%;
 }
-
+/* vlibras */
+.access-button{
+ 
+}
+/* Botão fixo para o instagram */
+#btnInstagram {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
 
 
 
