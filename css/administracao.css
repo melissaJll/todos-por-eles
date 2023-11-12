@@ -1,0 +1,74 @@
+
+body {
+    background-color: #FFFCF4; 
+  /* background-color: #f5c359;  */
+}
+.assunto {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: 50%;
+}
+
+form{
+    margin: auto;
+    border: 1px rgb(155, 155, 155);
+    background-color: #fff;
+    padding: 20px;
+    color: rgb(218, 112, 13);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 32%;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.img-container{
+    text-align: center;
+    margin: 25px;
+}
+.padd-10{
+    padding-top: 10px;
+}
+.wid-100{
+    width: 100%;
+}
+.center{
+    text-align: center;
+}
+
+button{
+    background-color: rgb(223, 139, 29);
+    color: rgb(245, 245, 238);
+    border: 0px;
+    border-radius: 2px;
+    padding: 9px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+}
+
+.nomeEmail{
+    display: block;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+

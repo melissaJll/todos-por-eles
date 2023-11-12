@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Area Administrativa - Todos Por Eles</title>
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <link rel="shortcut icon" href="img/fav-icon-pet.png" type="image/x-icon">
+      <link rel="stylesheet" href="css/home.css"/>
+      <link rel="stylesheet" href="css/administracao.css"/>
+      <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css'>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="info-bg">
+            <div class="limitador">
+            <h1>
+                <a href="home.html"
+                ><img src="img//patinha.png" alt="Logo"
+                /></a>
+            </h1>
+            <nav>
+                <h2>
+                <a href="" class="icone"><img src="img/icon-menu.svg" alt="icone de menu"></a>
+                </h2>
+                <ul class="menu">
+                    <li><a href="adocao.html">Adote</a></li>
+                    <li><a href="como-ajudar.html">Como Ajudar?</a></li>
+                    <li><a href="sobre-nos.html#quem-somos">Sobre-nos</a></li>
+                    <li><a href="sobre-nos.html">Contatos</a></li>
+                </ul>
+            </nav>
+            </div>
+        </header>   
+
+      <main>
+
+        <!-- <div class="text"><p>Para mais informações sobre os nossos cursos e unidades, preencha seus dados ao lado e entraremos em contato. Também enviaremos materiais de apoio para que você aproveite nossos conteúdos.</p></div>v -->
+        <div class="assunto"> 
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+        
+                <label for="genero">Gênero:</label>
+                <select id="genero" name="genero" required>
+                    <option value="femea">Fêmea</option>
+                    <option value="macho">Macho</option>
+                </select>
+        
+                <label for="dataNascimento">Data de Nascimento:</label>
+                <input type="date" id="dataNascimento" name="dataNascimento" required>
+        
+                <label for="imagem">Imagem:</label>
+                <input type="file" id="imagem" name="imagem" accept="image/*" required>
+        
+                <label for="castrado">Castrado:</label>
+                <select id="castrado" name="castrado" required>
+                    <option value="castrado">Castrado</option>
+                    <option value="naoCastrado">Não Castrado</option>
+                </select>
+        
+                <label for="descricao">Descrição:</label>
+                <textarea id="descricao" name="descricao" rows="4" required></textarea>
+        
+                <input type="submit" value="Enviar">
+            </form>        
+        
+        
+            <div id="btnInstagram">
+                <a target="_blank/" href="https://www.instagram.com/todosporeles_/"><img src="img/icon-instagram-fixo.png" alt=""></a>
+            </div>
+            
+            <!-- <fieldset>
+            <input placeholder="+55 | DD + Telefone" type="tel" tabindex="3" required>
+            </fieldset> -->
+
+        </div>
+
+        <div id="btnInstagram">
+            <a target="_blank/" href="https://www.instagram.com/todosporeles_/"><img src="img/icon-instagram-fixo.png" alt=""></a>
+        </div>
+
+      </main> 
+      
+      
+
+
+        <img src="img/footer-decoracaoo.png" alt="" class="dec">
+        <footer>
+        <div class="container-footer-rotas">
+            <div class="logo-footer">
+            <img src="img/todos-por-eles.png" alt="">
+            <p>ONG de ajuda a animais, buscamos melhorar a vida desses anjinhos</p>
+            </div>
+            <div class="footer-atendimento">
+            <h3>Atendimento</h3>
+            <ul>
+                <li><a href="#">11 96622-8898</a></li>
+                <li><a href="#">Email</a></li>
+            </ul>
+            </div>
+            <div class="footer-plataforma">
+                <h3>Plataforma</h3>
+                <ul>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Principios da LGPD</a></li>
+                    <li><a href="#">Política de privacodade</a></li>
+                </ul>
+            </div>
+            <div class="footer-mapa">
+                <h3>Acesso Rápido</h3>
+                <ul>
+                    <li><a href="#">Adote</a></li>
+                    <li><a href="#">Como Ajudar?</a></li>
+                    <li><a href="#">Contatos</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="sub-footer">
+            <div class="redes-sociais">
+                <a href="#" class="icon-instagram"><img src="img/patinha.png" alt=""></a>
+                <a href="#" class="icon-facebook"><img src="img/patinha.png" alt=""></i></a><a href="#">
+                <a href="#"class="icon-git"><img src="img/patinha.png" alt=""></a>
+            </div>
+            <p class="copyright">Company Name © 2023</p>
+        </div>
+        </footer>
+
+        <script src="js/toggle-switch.js"></script>
+        <script src="js/menu.js"></script>
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+            </div>
+          </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+          new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+  </body>
+</html>
