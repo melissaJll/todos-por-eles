@@ -604,13 +604,16 @@ a:hover {
   flex-direction: column;
 }
 
-.container-form form input{
+.container-form form input, .container-form textarea{
   border-radius: 10px;
   border: solid 1px rgb(192, 120, 12);
   margin-bottom: 20px;
-  height: 40px;
   padding-left: 10px;
-  width: 90%;
+  width: 100%;
+}
+
+.container-form form input{
+  height: 42px;
 }
 .section-contato img{
   width: 58%;
@@ -619,6 +622,7 @@ a:hover {
 
 footer{
   background-color: var(--primary-color);
+  color: var(--quaternary-color);
 }
 .container-footer-rotas{
   display: flex;
