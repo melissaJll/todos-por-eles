@@ -78,6 +78,7 @@ margin: 24px 0;
     justify-content: center;
     flex-direction: column;
     font-size: 1.5rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
   }
   
   .contato-form form input, .contato-form textarea{
@@ -112,20 +113,60 @@ margin: 24px 0;
 }
 
 .todos-contatos ul div{
-    display: flex;
-    align-items: center;
-    margin-bottom: 18px;
-    margin-top: 0;
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+  margin-top: 0;
 }
 .todos-contatos ul li{
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .todos-contatos ul img{
-    height: 59px;
-    cursor: pointer;
+  height: 59px;
+  cursor: pointer;
 }
 
 .text-contatos{
-    font-size: 2rem;
+  font-size: 2rem;
+  width: 72%;
+}
+
+.text-contatos img{
+  height: 300px;
+  float: right;
+  margin: 10px;
+}
+
+.faq{
+  width: 74%;
+  margin: 8rem auto 12rem auto;
+
+}
+.faq small, .texto small{
+  display: block;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.faq h2{
+  text-align: center;
+  margin-bottom: 4.5rem;
+  color: #424242;
+}
+summary{
+  margin-left: 5rem;
+}
+details{
+  background-color: #fff9e9;
+  width: 73%;
+  margin: 1.5rem auto;
+  padding: 1.3rem;
+  border-radius: 5px;
+  color: #c7770e;
+  font-size: 17px;
+  border: solid 1px rgb(216, 126, 24);
+}
+.conteudo-faq{
+  margin: 24px 0 0 40px;
 }
