@@ -129,7 +129,6 @@ margin: 24px 0;
 
 .text-contatos{
   font-size: 2rem;
-  margin-top: 1.3rem;
   width: 72%;
 }
 
@@ -159,6 +158,12 @@ margin: 24px 0;
   .text-contatos img{
     display: none;
   }
+  .text-contatos{
+    font-size: 2rem;
+    margin-top: 11rem;
+    width: 72%;
+  }
+  
 }
 @media screen and (max-width: 800px) {
 
