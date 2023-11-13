@@ -36,10 +36,19 @@
       <main>
 
         <!-- <div class="text"><p>Para mais informações sobre os nossos cursos e unidades, preencha seus dados ao lado e entraremos em contato. Também enviaremos materiais de apoio para que você aproveite nossos conteúdos.</p></div>v -->
+        <h2>Adicione os dados do pet que deseja inserir</h2>
         <div class="assunto"> 
             <form action="#" method="post">
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" name="nome" required>
+
+                <label for="genero">Tipo de animal:</label>
+                <select id="genero" name="genero" required>
+                    <option value="femea"></option>
+                    <option value="femea">Gato</option>
+                    <option value="macho">Cachorro</option>
+                    <option value="macho">Outro</option>
+                </select>
         
                 <label for="genero">Gênero:</label>
                 <select id="genero" name="genero" required>
@@ -64,7 +73,7 @@
                 <label for="descricao">Descrição:</label>
                 <textarea id="descricao" name="descricao" rows="4" required></textarea>
         
-                <input type="submit" value="Enviar">
+                <button class="btn-form" type="submit">Enviar</button>
             </form>        
         
         

@@ -2,6 +2,12 @@
 body {
     background-color: #FFFCF4; 
   /* background-color: #f5c359;  */
+    color: #10214b;
+}
+h2{
+    margin: 20px auto;
+    font-size: 2.2rem;
+    text-align: center;
 }
 .assunto {
     height: 100vh;
@@ -19,6 +25,7 @@ form{
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 32%;
+    font-size: 1.5rem;
 }
 
 label {
@@ -48,17 +55,6 @@ input, select, textarea {
 }
 .center{
     text-align: center;
-}
-
-button{
-    background-color: rgb(223, 139, 29);
-    color: rgb(245, 245, 238);
-    border: 0px;
-    border-radius: 2px;
-    padding: 9px;
-    margin: 0 auto;
-    display: block;
-    margin-top: 10px;
 }
 
 .nomeEmail{
