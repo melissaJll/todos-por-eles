@@ -1,6 +1,6 @@
 body {
     background-color: #fdfdfd; 
-    color: #27170b;
+    color: #301b0b;
   /* background-color: #f5c359;  */
 }
 
@@ -78,7 +78,7 @@ margin: 24px 0;
     justify-content: center;
     flex-direction: column;
     font-size: 1.5rem;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+    box-shadow: 5px 5px 22px rgba(0, 0, 0, 0.212);
   }
   
   .contato-form form input, .contato-form textarea{
@@ -129,6 +129,7 @@ margin: 24px 0;
 
 .text-contatos{
   font-size: 2rem;
+  margin-top: 1.3rem;
   width: 72%;
 }
 
