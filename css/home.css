@@ -623,22 +623,23 @@ a:hover {
 }
 
 .container-form form input{
-  height: 42px;
+  height: 48px;
 }
 .section-contato img{
   width: 58%;
   height: 100%;
 }
-
+.container-form #nome{
+  margin-top: 22px;
+}
 .btn-form{
   background-color: rgb(252, 178, 41);
   color: rgb(245, 245, 238);
   border: 0px;
   border-radius: 2px;
   padding: 9px 22px;
-  margin: 0 auto;
+  margin: 5 auto 0 auto;
   display: block;
-  margin-top: 10px;
 }
 
 footer{
