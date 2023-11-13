@@ -199,7 +199,6 @@ margin: 24px 0;
 
 
 .faq{
-    width: 74%;
     margin: 8rem auto 12rem auto;
   
   }
@@ -212,7 +211,8 @@ margin: 24px 0;
   .faq h2{
     text-align: center;
     margin-bottom: 4.5rem;
-    color: #424242;
+    color: #101f46;
+    font-size: 2.3rem;
   }
   summary{
     margin-left: 5rem;
