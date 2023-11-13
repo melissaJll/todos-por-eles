@@ -236,6 +236,7 @@ margin: 24px 0;
     summary{
         margin-left: 1.4rem;
       }
-      details{
-      }
+    .faq{
+      width: 100%;
+    }
   }
