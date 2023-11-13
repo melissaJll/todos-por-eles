@@ -628,6 +628,17 @@ a:hover {
   height: 100%;
 }
 
+.btn-form{
+  background-color: rgb(223, 139, 29);
+  color: rgb(245, 245, 238);
+  border: 0px;
+  border-radius: 2px;
+  padding: 9px 22px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 10px;
+}
+
 footer{
   background-color: var(--primary-color);
   color: var(--quaternary-color);
