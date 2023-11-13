@@ -170,3 +170,43 @@ details{
 .conteudo-faq{
   margin: 24px 0 0 40px;
 }
+
+@media screen and (max-width: 1000px) {
+  #contatos-container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .todos-contatos{
+    width: 80%;
+    margin-bottom: 14px;
+    font-size: 1.9rem;
+  }
+  .contato-form{
+    position:relative;
+    top: 0px;
+    cursor: pointer;
+    width: 80%;
+  }
+  .text-contatos img{
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+
+  .contatos-container{
+    width: 100%;
+  }
+  .todos-contatos{
+    width: 85%;
+    margin-bottom: 14px;
+  }
+
+  .contato-form form{
+    width: 95%;
+  }
+  form{
+    margin: 0;
+    padding: 0%;
+  }
+}
