@@ -8,7 +8,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    display: 50%;
 }
 
 form{
@@ -71,4 +70,32 @@ a{
     text-decoration: none;
 }
 
+@media screen and (max-width: 1000px) {
+    .assunto {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: 75%;
+    }
 
+    form{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .assunto {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: 50%;
+    }
+
+    form{
+        width: 90%;
+    }
+}
