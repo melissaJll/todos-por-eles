@@ -98,4 +98,10 @@ a{
     form{
         width: 90%;
     }
+    .menu{
+        display: block;
+    }
+    .menu a:hover{
+        background-color: rgba(255, 200, 127, 0.021);
+    }
 }

@@ -169,6 +169,13 @@ footer{
     .container-login{
       max-width: 58vw;
     }
+    .menu{
+      display: block;
+    }
+    .menu a:hover{
+      background-color: rgba(255, 200, 127, 0.021);
+  }
+
 
   }
 

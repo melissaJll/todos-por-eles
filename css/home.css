@@ -127,6 +127,14 @@ nav {
   transition: 0.3s;
   color: var(--quaternary-color);
 }
+#menu-restrito{
+  justify-content: end;
+  align-items: center;
+}
+#menu-restrito li {
+  width: 33%;
+
+}
 
 .menu a:hover,
 .menu a:focus {
@@ -736,6 +744,12 @@ footer h3{
     padding: 40px 0;
   }
 
+  #menu-restrito li {
+    width: 75%;
+  }
+  #menu-restrito svg{
+    display: none;
+  }
   nav {
     display: flex;
     flex-direction: row-reverse;
