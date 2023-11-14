@@ -509,6 +509,7 @@ a:hover {
 
 .container-projetos a, .btn-adote{
   color: var(--tertiary-color);
+  text-decoration: none;
   background-color: rgb(248, 248, 248);
   padding: 6px;
   border-radius: 5px;
@@ -552,7 +553,6 @@ a:hover {
   flex-wrap: wrap;
   height: 54%;
   margin-top: 88px;
-  font-size: 1.9rem;
 }
 
 .container-adote img{
@@ -565,14 +565,20 @@ a:hover {
 }
 .btn-adote{
   color: #FFBE41;
+  font-size: clamp(2.3rem, 2vw, 2.2rem);
+
 }
 .container-adote .texto h2{
   color: #FFE6B5;
-  font-size: 6rem;
+  font-size: clamp(4.4rem, 5vw, 7.5rem);
+  /* font-size: 6rem; */
 }
-.container-adote .texto p{
+
+  .container-adote .texto p{
   color: #f3f3f3;
   margin: 2.5rem auto;
+  font-size: clamp(1.9rem, 2vw, 2.1rem);
+
 }
 
 
@@ -786,7 +792,6 @@ footer h3{
   }
   .container-adote .texto{
     width: 100%;
-    font-size: 3rem;
   }
   .section-contato img{
     display: none;
