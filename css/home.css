@@ -645,6 +645,12 @@ a:hover {
   padding: 9px 22px;
   margin: 5 auto 0 auto;
   display: block;
+  width: 100%;
+}
+.btn-form a{
+  text-decoration: none;
+  color: rgb(245, 245, 238);
+  font-weight: bold;
 }
 
 footer{
