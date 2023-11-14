@@ -480,7 +480,9 @@ a:hover {
   width: 394px;
   margin-top: 0;
   margin-right: 6rem;
+  content: url('../img/logo-sobre-nos.png');
 }
+
 .sobre-ong a{
   text-decoration: none;
   color: #F8A528;
@@ -873,9 +875,11 @@ footer h3{
     width: 100vw;
     justify-content: center;
   }
+  
   .sobre-ong img{
-    max-height: 84px;
-    max-width: 96px;
+    content: url('../img/nome-ong.png');
+    max-height: 85px;
+    max-width: 197px;
     margin: 5px;
   }
   .sobre-ong p{
