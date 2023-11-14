@@ -148,61 +148,6 @@ nav {
   max-width: 79px;
 }
 
-
-/* .destaque{
-  background: url(../img/fundo-principal.png);
-  background-color: #39394a65;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: 75vh;
-  padding: 5rem 0;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: var(--quaternary-color);
-  font-weight: 300;
-  font-size: 1.8rem;
-}
-
-.destaque p:first-child {
-  line-height: 2.5rem;
-  letter-spacing: var(--letter-spacing);
-  text-transform: uppercase;
-}
-
-.destaque h2 {
-  font-size: clamp(2rem, 10vw, 6rem);
-  max-width: 735px;
-  margin: 24px 0;
-  text-shadow: var(--secondary-color) 1px 1px;
-  
-}
-
-.destaque p:last-of-type {
-  line-height: var(--line-height-secondary);
-  letter-spacing: var(--letter-spacing);
-  max-width: 1000px;
-  line-height: 3rem;
-}
-.destaque a{
-  background: rgb(254,151,31);
-  background: linear-gradient(186deg, rgba(254,151,31,1) 7%, rgba(255,187,72,1) 90%);
-  display: inline-block;
-  font-weight: bold;
-  border-radius: 25px;
-  color: #f5f3ed;
-  text-decoration: none;
-  padding:  15px 25px;
-  border: none;
-  margin-top: 30px;
-  color: var(--quaternary-color);
-  height: 48px;
-  letter-spacing: var(--letter-spacing);
-} */
-
 /*    SLIDER    */
 
 :after,
@@ -453,22 +398,18 @@ a:hover {
   text-align: center;
   line-height: 75px;
 }
-
+/* ---------------------------Fim do Slider----------------------------------- */
 
 
 
 .sobre-ong{
-  /* margin:  10rem auto; */
   margin: auto;
   padding: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* text-shadow: #f5b94b 2px 2px; */
   font-size: 2.2rem;
   background-color: #fffcf4;
-  /* border-radius: 8px; */
-  /* width: 99%; */
   color: #F8A528;
 }
 
@@ -594,16 +535,8 @@ a:hover {
   height: 480px;
 
 }
-/* .section-contato img{
-  height: 395px;
-  width: 395px;
-  margin: auto;
-  margin-right: 110px;
-} */
 
 .container-form{
-  /* background-color: #776a5b; */
-  /* background-color: #FFBE41; */
   width: 58%;
   display: flex;
   justify-content: center;
@@ -619,7 +552,6 @@ a:hover {
   width: 54%;
   height: 90%;
   padding: 30px;
-  /* background-color: #f19f40; */
   background-color: #fffcf8;
   color: rgb(218, 112, 13);
   display: flex;
