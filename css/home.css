@@ -557,6 +557,8 @@ a:hover {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  font-size: clamp(1.2rem, 2vw, 1.3rem);
+
 }
 
 .container-form form input, .container-form textarea{

@@ -1,0 +1,53 @@
+
+body {
+    background-color: #fdfdfd; 
+  /* background-color: #f5c359;  */
+}
+
+
+
+/* Banner Destaque */
+.destaque-adocao{
+    background-image: url(../img/banner-adote.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 93vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--quaternary-color);
+    font-weight: 300;
+
+
+}
+
+.destaque-texto{
+    margin: 0 auto;
+    max-width: 1000px;
+    color: #1b1816;
+    width: calc(
+      100% - 100px
+    ); 
+    
+}
+
+.destaque-adocao p{
+    line-height: var(--line-height-secondary);
+    letter-spacing: var(--letter-spacing);
+    max-width: 700px;
+    line-height: 3rem;
+    font-size: 1.8rem;
+}
+  
+.destaque-adocao h2 {
+font-size: clamp(2rem, 10vw, 6.3rem);
+max-width: 735px;
+margin: 24px 0;
+}
+
+
+
+
