@@ -27,11 +27,14 @@ body {
 .destaque-texto{
     margin: 0 auto;
     max-width: 1000px;
-    color: #1b1816;
     width: calc(
       100% - 100px
     ); 
-    
+    color: #271508;
+}
+
+.destaque-texto p{
+  font-weight: 400;
 }
 
 .destaque-adocao p{
@@ -40,6 +43,8 @@ body {
     max-width: 700px;
     line-height: 3rem;
     font-size: 1.8rem;
+    font-weight: bold;
+    color: #865306;
 }
   
 .destaque-adocao h2 {

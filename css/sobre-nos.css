@@ -24,7 +24,7 @@ body {
 .destaque-texto{
     margin: 0 auto;
     max-width: 1000px;
-    color: #1b1816;
+    color: #271508;
     width: calc(
       100% - 100px
     ); 
@@ -36,7 +36,9 @@ body {
     letter-spacing: var(--letter-spacing);
     max-width: 700px;
     line-height: 3rem;
-    font-size: 1.8rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #864006;
 }
   
 .destaque-adocao h2 {

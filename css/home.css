@@ -189,6 +189,10 @@ nav {
   text-align: center;
   padding-top: 70px;
 }
+.container-projetos p{
+  text-shadow: 1px 1px rgb(216, 163, 29);
+}
+
 .background{
   width: 100%;
   background-image: url(../img/wave-home1.png);
