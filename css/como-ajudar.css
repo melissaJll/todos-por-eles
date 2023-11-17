@@ -49,18 +49,23 @@ body {
 }
 
 
-#pix{
+#pix {
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
   color: #fdfdfd;
 }
-#pix p{
-  display: inline-block;
+
+#pix input,#pix button {
   background-color: var(--primary-color);
   padding: 20px;
-  text-shadow: 1px 1px #8f5908;
+  text-shadow: 1px 1px #be7911;
+  border: none;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
 }
+
 ul{
   list-style: none;
 }

@@ -40,14 +40,14 @@
     <article class="destaque-adocao">
       <div class="destaque-texto">
         <h2>Como-ajudar</h2>
-        <!-- <p>Doe para ajudar cães que precisam de apoio. Aceitamos pix e transferências bancárias.
-          Apoie por: 11984639721 ou transfira para Pix: 46.677.822/0001-02.</p> -->
           <p>Com o coração aberto, recebemos sua ajuda para continuar protegendo e cuidando dos animais. Junte-se a nós nessa missão</p>
       </div>
     </article>
 
+        
     <section id="pix">
-      <p>Pix: 46.677.822/0001-02.</p>
+      <input type="text" id="pixInput"  value="46.677.822/0001-02" disabled>
+      <button onclick="copyToClipboard()" >Copiar PIX</button>
     </section>
 
 
@@ -59,7 +59,7 @@
         <img src="img/doacao.png" alt="">
       </div>
       <div class="text-field">
-       <p> <!-- As organizações não governamentais (ONGs) dedicadas ao bem-estar animal desempenham um papel crucial na proteção, resgate e defesa dos direitos dos animais. Essas instituições se esforçam para criar um mundo onde os animais sejam tratados com compaixão e dignidade. <br> -->
+       <p>
         Os voluntarios do instituto revezam para alimentar os animais da praça, mas estamos sempre precisando de doações. Se puder contribuir com Ração, Medicação, Cobertores, Vermifugo, anti-pulgas e afins podemos retirar no local de sua preferência ou procure um de nossos pontos de arrecadação</p>
         <ul>
           <li>
@@ -97,20 +97,6 @@
       </div>
     </div>
 
-    
-    <!-- <div class="title-field">
-      <h4 class="title">Casinha solidaria</h4>
-    </div>
-    <div class="last-section">
-      <div class="card">
-        <div class="circle-field">
-          <div class="circle"></div>
-        </div>
-        <p>A ONG Todos por Eles cria "Casinhas Solidárias para Cães", proporcionando abrigo, cuidados veterinários e
-          carinho a cães de rua. Uma iniciativa comunitária que simboliza esperança e solidariedade para construir um
-          mundo mais compassivo. Casas feitas pela ONG para os cachorros
-        </p>
-      </div> -->
       <div class="section3">
         <div class="limitador section-banner section2">
           <div class="text-field">
@@ -183,7 +169,22 @@
       <p class="copyright">Company Name © 2023</p>
     </div>
   </footer>
+
+  <!-- Js -->
   <script src="js/menu.js"></script>
+  <!-- Copiar Pix -->
+  <script>
+    const input = document.getElementById('pixInput');
+
+    function copyToClipboard() {
+      navigator.clipboard.writeText(input.value).then(() => {
+        alert('Pix copiado');
+      });
+    }
+    function Copy() {
+      copyToClipboard();
+    }
+  </script>
   <div vw class="enabled">
     <div vw-access-button class="active"></div>
     <div vw-plugin-wrapper>
