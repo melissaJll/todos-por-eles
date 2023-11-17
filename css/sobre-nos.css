@@ -139,6 +139,23 @@ margin: 24px 0;
   float: right;
   margin: 10px;
 }
+/* Plugin lightbox */
+.fotos-ong{
+  margin: 80px auto;
+}
+.galeria-ong{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 83%;
+}
+
+.galeria-ong img{
+  height: 200px;
+  margin-top: 10px;
+  
+}
 
 @media screen and (max-width: 1000px) {
   #contatos-container{

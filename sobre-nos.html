@@ -9,6 +9,9 @@
       <link rel="stylesheet" href="css/home.css"/>
       <link rel="stylesheet" href="css/sobre-nos.css"/>
 
+          <!-- importação do css do plugin lightbox -->
+    <link href="lightbox/css/lightbox.min.css" rel="stylesheet" />
+
     </head>
       <body>
         <header class="info-bg">
@@ -87,6 +90,14 @@
                 Obrigado por apoiar "Todos Por Eles" e por acreditar no poder da adoção e do amor pelos animais.</p>
           </article>
 
+          <article class="fotos-ong">
+            <figure class="galeria-ong">
+                <a href="img/bella.png" data-lightbox="galeria" data-title="  Deselvolvimento Web"><img src="img/max.png" alt=""></a>
+                <a href="img/bella.png" data-lightbox="galeria" data-title="  Deselvolvimento Web"><img src="img/max.png" alt=""></a>
+                <a href="img/bella.png" data-lightbox="galeria" data-title="  Deselvolvimento Web"><img src="img/max.png" alt=""></a>
+            </figure>
+          </article>
+
           <div id="btnInstagram">
             <a target="_blank/" href="https://www.instagram.com/todosporeles_/"><img src="img/icon-instagram-fixo.png" alt=""></a>
           </div>
@@ -139,6 +150,21 @@
     <script src="js/toggle-switch.js"></script>
     <script src="js/menu.js"></script>
 
+        <!-- biblioteca jquery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+        <!-- importando o plugin lightbox-->
+        <script src="lightbox/js/lightbox.min.js"></script>
+        <script>
+          lightbox.option({
+             alwaysShowNavOnTouchDevices: true,
+            'resizeDuration': 200,
+            'wrapAround': true,
+             albumLabel: "Foto %1 de %2"
+          })
+      </script>
+      
+        <!-- Vlibras -->
     <div vw class="enabled">
       <div vw-access-button class="active"></div>
       <div vw-plugin-wrapper>
