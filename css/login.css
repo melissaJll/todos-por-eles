@@ -87,7 +87,7 @@ main{
   border: none;
   color: var(--quaternary-color);
   border-radius: 5px;
-  background: rgb(240, 158, 35);
+  background: rgb(248, 164, 39);
   text-align: center;
   margin-top: 10px;
 }
@@ -96,6 +96,7 @@ main{
     color: #fff;
 }
 .form-img-login{
+  background-color: #F9A248;
   max-width: 51%;
   height: 100%;
   display: flex;
