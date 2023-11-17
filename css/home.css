@@ -13,9 +13,6 @@
   --tertiary-color: #e7cc6b;
   --quaternary-color: #f3f1f0;
   --quinary-color: #39394a;
-  --senary-color: #121229;
-  --octonary-color: #67b0cf;
-  --bottun-hover-dark: #394d64;
   --letter-spacing: 0.8px;
   --margin-primary: 11.5rem;
 }
@@ -64,7 +61,7 @@ button {
 
 .limitador {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1150px;
   width: calc(
     100% - 100px
   ); /* a largura é a largura total menos 100px (50px para cada lado) */

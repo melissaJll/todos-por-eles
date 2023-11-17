@@ -130,8 +130,9 @@ margin: 24px 0;
 }
 
 .text-contatos{
-  font-size: 2rem;
-  width: 72%;
+  font-weight: 500;
+  font-size: 20px;
+  width: 78%;
 }
 
 .text-contatos img{
@@ -148,7 +149,6 @@ margin: 24px 0;
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin: auto;
-  width: 83%;
 }
 
 .galeria-ong img{
