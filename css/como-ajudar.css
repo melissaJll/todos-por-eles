@@ -56,14 +56,22 @@ body {
   color: #fdfdfd;
 }
 
-#pix input,#pix button {
+#pix input{
   background-color: var(--primary-color);
   padding: 20px;
-  text-shadow: 1px 1px #be7911;
+  text-shadow: 1px 1px #c98013;
   border: none;
   font-size: inherit;
   font-weight: inherit;
   color: inherit;
+}
+#pix button {
+  background-color: rgb(255, 252, 235);
+  padding: 20px;
+  border: none;
+  font-size: inherit;
+  font-weight: inherit;
+  color: var(--primary-color);
 }
 
 ul{
