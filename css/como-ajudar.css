@@ -98,12 +98,13 @@ ul{
 
 .section-banner .text-field p {
   font-weight: 500;
-  font-size: 18px;
+  font-size: clamp(15px, 2vw, 18px);
+
 }
 .text-field ul{
   margin: 18px auto 15px 20px;
   font-weight: 500;
-  font-size: 17px;
+  font-size: clamp(13px, 2vw, 17px);
 }
 .text-field ul li{
   margin: 11px auto;
