@@ -15,43 +15,13 @@
 ## Descrição
 
 <p align="center">
-<img src="https://github.com/melissaJll/todos-por-eles/blob/main/img/logo-menu.png" alt="Logo da Ong" border="0">
+<img src="https://github.com/melissaJll/todos-por-eles/blob/main/img/logo-menu.png" alt="Logo da Ong"  width="300" border="0">
   Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
 </p>
 
 Fundada em 2016, a ONG "Todos Por Eles" é uma organização sem fins lucrativos localizada na cidade de Ferraz de Vasconcelos, no estado de São Paulo, Brasil. Nossa história começa com um grupo de moradores locais apaixonados por animais, preocupados com o crescente número de animais abandonados e maltratados em nossa comunidade. Testemunhar os animais enfrentando as ruas nos motivou a agir.
 <br><br>
 
-## 🛠 Estrutura de pastas
-
--Raiz<br>
-|<br>
-|-->documentos<br>
-  &emsp;|-->antigos<br>
-  &emsp;|Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
-|-->imagens<br>
-|-->src<br>
-  &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
-|readme.md<br>
-
-A pasta raiz contem dois arquivos que devem ser alterados:
-
-<b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
-
-Há também 4 pastas que seguem da seguinte forma:
-
-<b>documentos</b>: Toda a documentação estará nesta pasta.
-
-<b>executáveis</b>: Binários e executáveis do projeto devem estar nesta pasta.
-
-<b>imagens</b>: Imagens do sistema
-
-<b>src</b>: Pasta que contém o código fonte.
 
 ## 🛠 Instalação
 
@@ -94,20 +64,44 @@ Coloque código do prompt de comnando se for necessário
 
 ## 🗃 Histórico de lançamentos
 
-A cada atualização os detalhes devem ser lançados aqui.
+Relatório de Atualizações: Semana de 10 a 20 de Novembro de 2023
 
-* 0.2.1 - 25/01/2022
-    * MUDANÇA: Atualização de docs (código do módulo permanece inalterado)
-* 0.2.0 - 15/01/2022
-    * MUDANÇA: Remove `setDefaultXYZ()`
-    * ADD: Adiciona `init()`
-* 0.1.1 - 11/01/2022
-    * CONSERTADO: Crash quando chama `baz()` (Obrigado @NomeDoContribuidorGeneroso!)
-* 0.1.0 - 10/01/2022
-    * O primeiro lançamento adequado
-    * MUDANÇA: Renomeia `foo()` para `bar()`
-* 0.0.1 - 01/01/2022
-    * Trabalho em andamento
+Versão 0.3.0 - 20/11/2023
+
+MUDANÇA: Criado README.md para documentação
+MUDANÇA: Atualizado apiCachorro.js com correção no botão
+Versão 0.2.1 - 17/11/2023
+
+MUDANÇA: Atualização de como-ajudar.css
+ADD: Adição de javascript para o Pix
+ADD: Adição de lightbox com conteúdo
+MUDANÇA: Fonte responsiva em como-ajudar.css
+ADD: Pix adicionado na página como ajudar
+ADD: Página como ajudar criada
+Versão 0.2.0 - 15/11/2023
+
+MUDANÇA: Renomeada a função foo() para bar()
+ADD: Lançamento oficial da primeira versão
+Versão 0.0.1 - 01/11/2023
+
+Trabalho em andamento, commit inicial em 10 de outubro
+Commits na semana de 10 a 20 de Novembro de 2023:
+
+Atualização do README.md
+Correção no apiCachorro.js
+Botão arrumado em login.css
+Adição de javascript para Pix
+Lightbox com conteúdo
+Fonte responsiva em como-ajudar.css
+Pix adicionado na página como ajudar
+Criação da página como ajudar
+Remoção de destaque e arrumação de ícones de redes sociais
+Atualização em home.css
+Simulação de <picture> para o logo
+Botão arrumado no login
+Criação da área de login
+Arrumação do footer
+Alteração na cor do botão dos formulários
 
 ## 📋 Licença/License
 
@@ -116,8 +110,5 @@ A cada atualização os detalhes devem ser lançados aqui.
 
 Aqui estão as referências usadas no projeto.
 
-1. <https://github.com/iuricode/readme-template>
-2. <https://github.com/gabrieldejesus/readme-model>
-3. <https://creativecommons.org/share-your-work/>
-4. <https://freesound.org/>
-5. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
+1. <https://amparanimal.org.br/>
+2. <https://github.com/melissaJll/psidevs-online/>
