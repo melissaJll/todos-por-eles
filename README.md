@@ -14,10 +14,6 @@
  
 ## Descrição
 
-<p align="center">
-<img src="https://github.com/melissaJll/todos-por-eles/blob/main/img/logo-menu.png" alt="Logo da Ong"  width="300" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
-</p>
 
 Fundada em 2016, a ONG "Todos Por Eles" é uma organização sem fins lucrativos localizada na cidade de Ferraz de Vasconcelos, no estado de São Paulo, Brasil. Nossa história começa com um grupo de moradores locais apaixonados por animais, preocupados com o crescente número de animais abandonados e maltratados em nossa comunidade. Testemunhar os animais enfrentando as ruas nos motivou a agir.
 <br><br>
@@ -64,13 +60,15 @@ Coloque código do prompt de comnando se for necessário
 
 ## 🗃 Histórico de lançamentos
 
-Relatório de Atualizações: Semana de 10 a 20 de Novembro de 2023
+#### Trabalho em andamento, commit inicial em 10 de outubro
 
-Versão 0.3.0 - 20/11/2023
+### Relatório de Atualizações: Semana de 10 a 20 de Novembro de 2023
+
+#### Versão 0.3.0 - 20/11/2023
 
 MUDANÇA: Criado README.md para documentação
 MUDANÇA: Atualizado apiCachorro.js com correção no botão
-Versão 0.2.1 - 17/11/2023
+#### Versão 0.2.1 - 17/11/2023
 
 MUDANÇA: Atualização de como-ajudar.css
 ADD: Adição de javascript para o Pix
@@ -80,28 +78,23 @@ ADD: Pix adicionado na página como ajudar
 ADD: Página como ajudar criada
 Versão 0.2.0 - 15/11/2023
 
-MUDANÇA: Renomeada a função foo() para bar()
-ADD: Lançamento oficial da primeira versão
-Versão 0.0.1 - 01/11/2023
+#### Commits na semana de 10 a 20 de Novembro de 2023:
 
-Trabalho em andamento, commit inicial em 10 de outubro
-Commits na semana de 10 a 20 de Novembro de 2023:
-
-Atualização do README.md
-Correção no apiCachorro.js
-Botão arrumado em login.css
-Adição de javascript para Pix
-Lightbox com conteúdo
-Fonte responsiva em como-ajudar.css
-Pix adicionado na página como ajudar
-Criação da página como ajudar
-Remoção de destaque e arrumação de ícones de redes sociais
-Atualização em home.css
-Simulação de <picture> para o logo
-Botão arrumado no login
-Criação da área de login
-Arrumação do footer
-Alteração na cor do botão dos formulários
+15.Atualização do README.md
+14.Correção no apiCachorro.js
+13.Botão arrumado em login.css
+12.Adição de javascript para Pix
+11.Lightbox com conteúdo
+10.Fonte responsiva em como-ajudar.css
+9.Pix adicionado na página como ajudar
+8.Criação da página como ajudar
+7.Remoção de destaque e arrumação de ícones de redes sociais
+6.Atualização em home.css
+5.Simulação de <picture> para o logo
+4.Botão arrumado no login
+3.Criação da área de login
+2.Arrumação do footer
+1.Alteração na cor do botão dos formulários
 
 ## 📋 Licença/License
 
